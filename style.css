@@ -39,7 +39,7 @@ textarea {
 .hour {
   background-color: #ffffff;
   color: #000000;
-  border-top: 1px dashed #000000;
+  border-top: 1px solid #000000;
 }
 
 .past {
@@ -48,21 +48,32 @@ textarea {
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: magenta;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: greenyellow;
   color: white;
 }
 
 .saveBtn {
-  border-left: 1px solid black;
+  /* position: absolute; */
+  top: 0;
+  left: 0;
+  border: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06aed5;
-  color: white;
+  background-color: blue;
+  background-image: url("https://www.iconsdb.com/icons/preview/deep-pink/save-xxl.png");
+  background-size: 25px 25px;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+  width: 100%;
+  padding-left: 35px;
+  padding-top: 15px;
+  color: transparent;
 }
 
 .saveBtn i:hover {
